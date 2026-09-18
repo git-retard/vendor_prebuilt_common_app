@@ -1,0 +1,94 @@
+android_app_import {
+        name: "Obsidian",
+        apk: "Obsidian/obsidian.apk",
+        presigned: true,
+        preprocessed: true,
+        skip_preprocessed_apk_checks: true,
+        product_specific: true,
+        optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        ],
+}
+
+
+android_app_import {
+        name: "OrganicMap",
+        apk: "OrganicMap/organicmap.apk",
+        presigned: true,
+        preprocessed: true,
+        skip_preprocessed_apk_checks: true,
+        product_specific: true,
+        optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        ]
+}
+
+android_app_import {
+        name: "QuikSMS",
+        apk: "QuikSMS/quik.apk",
+        presigned: true,
+        preprocessed: true,
+        product_specific: true,
+        overrides: [
+                "messaging",
+                "Messaging",
+        ],
+        optional_uses_libs: [
+        "org.apache.http.legacy",
+        ],
+}
+
+
+android_app_import {
+        name: "Thunderbird",
+        apk: "Thunderbird/thunderbird.apk",
+        presigned: true,
+        preprocessed: true,
+        product_specific: true,
+        optional_uses_libs: [
+        "com.sec.android.app.multiwindow",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        ],
+}
+
+android_app_import {
+        name: "Fdroid",
+        apk: "F-droid/fdroid.apk",
+        presigned: true,
+        preprocessed: true,
+        skip_preprocessed_apk_checks: true,
+        product_specific: true,
+        privileged: true,
+        optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        ],
+}
+
+android_app_import {
+        name: "Fpriv",
+        apk: "F-priv/fpriv.apk",
+        presigned: true,
+        preprocessed: true,
+        skip_preprocessed_apk_checks: true,
+        product_specific: true,
+        privileged: true,
+}
+
+android_app_import {
+        name: "Aurora",
+        apk: "Aurora/aurora.apk",
+        presigned: true,
+        preprocessed: true,
+        skip_preprocessed_apk_checks: true,
+        product_specific: true,
+        privileged: true,
+        optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        ],
+}
+
